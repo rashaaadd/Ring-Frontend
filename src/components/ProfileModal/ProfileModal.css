@@ -1,0 +1,16 @@
+.infoSelect{
+    height:2.5rem;
+    background-color: var(--inputColor);
+    border:none
+}
+.infoSelect:focus{
+    outline:none !important;
+    box-shadow:none;
+    
+}
+.label{
+    font-size:small;
+    position:absolute;
+    margin-top: -20px;
+    margin-left: 5px;
+}
