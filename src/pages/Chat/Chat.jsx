@@ -33,7 +33,7 @@ function Chat() {
 
   // add new user to socket
   useEffect(() => {
-    socket.current = io("ws://localhost:3001");
+    socket.current = io("https://chat.sayyarah.shop/");
     if (user) {
       socket.current.emit("new-user-add", user._id);
     }
