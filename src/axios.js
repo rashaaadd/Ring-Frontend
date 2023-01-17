@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const USER_API = axios.create({
-    baseURL: "http://server.sayyarah.shop/",
+    baseURL: "https://server.sayyarah.shop/",
 })
 
 export const USER_API_GET = USER_API.get;
@@ -15,7 +15,7 @@ USER_API.interceptors.request.use(
     }
 )
 export const USER = axios.create({
-    baseURL: "http://server.sayyarah.shop/",
+    baseURL: "https://server.sayyarah.shop/",
 })
 
 export const USER_GET = USER.get;
@@ -31,7 +31,7 @@ USER.interceptors.request.use(
 )
 
 export const POSTS_API = axios.create({
-    baseURL: "http://server.sayyarah.shop/post",
+    baseURL: "https://server.sayyarah.shop/post",
 })
 
 
@@ -44,7 +44,7 @@ POSTS_API.interceptors.request.use(
 )
 
 export const POSTS = axios.create({
-    baseURL: "http://server.sayyarah.shop/post",
+    baseURL: "https://server.sayyarah.shop/post",
 })
 
 POSTS.interceptors.request.use(
@@ -62,7 +62,7 @@ export const POSTS_POST = POSTS.post;
 
 
 export const ADMIN = axios.create({
-    baseURL: "http://server.sayyarah.shop/admin"
+    baseURL: "https://server.sayyarah.shop/admin"
 })
 
 export const ADMIN_GET = ADMIN.get;
@@ -72,7 +72,7 @@ export const ADMIN_DELETE = ADMIN.delete;
 
 
 export const CHAT_API = axios.create({
-    baseURL: "http://server.sayyarah.shop/chat"
+    baseURL: "https://server.sayyarah.shop/chat"
 })
 
 
@@ -86,7 +86,7 @@ CHAT_API.interceptors.request.use(
 
 
 export const MESSAGE_API = axios.create({
-    baseURL: "http://server.sayyarah.shop/message"
+    baseURL: "https://server.sayyarah.shop/message"
 })
 
 MESSAGE_API.interceptors.request.use(
