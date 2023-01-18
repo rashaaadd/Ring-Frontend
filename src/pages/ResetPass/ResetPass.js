@@ -9,6 +9,7 @@ import Image from '../../img/purpleLike.png'
 
 function ResetPass() {
   const location = useLocation();
+  
   const [formData, setFormData] = useState({});
   const [confirmPass, setConfirmPass] = useState(false);
   const [passReset, setPassReset] = useState(false);

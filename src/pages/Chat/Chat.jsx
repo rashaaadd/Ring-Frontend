@@ -33,7 +33,7 @@ function Chat() {
 
   // add new user to socket
   useEffect(() => {
-    socket.current = io("https://chat.sayyarah.shop/");
+    socket.current = io("https://server.sayyarah.shop/");
     if (user) {
       socket.current.emit("new-user-add", user._id);
     }
